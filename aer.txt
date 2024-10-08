@@ -1,0 +1,6 @@
+
+
+557690593706.dkr.ecr.us-east-1.amazonaws.com/book-repo
+
+
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 557690593706.dkr.ecr.us-east-1.amazonaws.com
